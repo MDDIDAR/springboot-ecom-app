@@ -14,7 +14,6 @@ public class FakeStoreProductDto {
     private String description;
     private String category;
     private Double price;
-
     public Product toProduct() {
         Product product = new Product();
         product.setId(id);

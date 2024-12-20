@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
-@Service
+@Service("FakeStoreProductService")
 public class FakeSoreProductService implements ProductService{
     private RestTemplate restTemplate;
 
